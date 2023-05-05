@@ -1,0 +1,803 @@
+[
+  {
+    "title": "Print: The quick brown fox jumps over the lazy dog",
+    "category": ["PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nPrint the sentence:\n\"The quick brown fox jumps over the lazy dog\".",
+    "link": null,
+    "topic": "PRINT STATEMENTS AND INPUT STATEMENTS"
+  },
+  {
+    "title": "Print On The Same Line",
+    "category": ["PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nPrint the sentence:\n\"Hello World!Python is cool!\" in the same line with two print statements,",
+    "link": null,
+    "topic": "PRINT STATEMENTS AND INPUT STATEMENTS"
+  },
+  {
+    "title": "Odd or Even",
+    "category": ["IF-ELSE", "PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an integer input, print out whether the integer is odd or even.",
+    "link": null,
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Determine leap year",
+    "category": ["IF-ELSE", "PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nCheck if the given year is a leap year or an average year.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a004",
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Find next number of given sequence",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 3,
+    "question": "Challenge:\nThe requirements for a fill-in-the-blank exercise are: the first four items of the known sequence are filled in and the fifth item is to be filled out. This series can only be arithmetic or geometric series, she decided to write a program to complete these exercises.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a005",
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Print all numbers not divisible by 7",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nPrint all the numbers before a given number that are not divisible by 7.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a147",
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Count number that are 3k, 3k+1 and 3k+2",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\n Given n numbers, please output how many numbers are 3k, 3k+1, 3k+2.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a058",
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Fortune Telling ",
+    "category": ["IF-ELSE", "PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nAn Astrologer want to use his computer to make predictions.\nTo perform his predictions he asks people to enter their Date and Month of birth(DD MM)\nThe then uses the following formula:\nS=(M*2+D)%3\nAccording to the value of S, from 0 to 2 are given three different fortunes: normal, lucky, and great luck.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a003",
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Print natural numbers",
+    "category": ["FOR-WHILE LOOPS", "PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nPrint First 10 natural numbers using while loop only.",
+    "link": "https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "Palindrome Number",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 2,
+    "question": "Challenge:\nCheck if a given number is a palindrome or not.",
+    "link": "https://leetcode.com/problems/palindrome-number/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+  {
+    "title": "Binary Strings ",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "STRINGS"
+    ],
+    "difficulty": 3,
+    "question": "Challenge:\nGiven two binary strings, add and return the result as string.",
+    "link": "https://leetcode.com/problems/add-binary/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "Happy Number",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 5,
+    "question": "Challenge:\nCheck if a number is a Happy Number.\nStarting with any positive integer, replace the number by the sum of the squares of its digits.\nRepeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1\nThose numbers for which this process ends in 1 are happy\n Return True or False",
+    "link": "https://leetcode.com/problems/happy-number/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "Count total digit",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a program to count digits in an integer.",
+    "link": "https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "FizzBuzz",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\n Given an integer n, return a string array answer (1-indexed) where:\nanswer[i] == 'FizzBuzz' if i is divisible by 3 and 5.\nanswer[i] == 'Fizz' if i is divisible by 3.\nanswer[i] == 'Buzz' if i is divisible by 5.\nanswer[i] == i if non of the above conditions are true.",
+    "link": "https://leetcode.com/problems/fizz-buzz/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "Power of Two",
+    "category": ["IF-ELSE", "PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nCheck if a number is a power of Two",
+    "link": "https://leetcode.com/problems/power-of-two/",
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Count Primes",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 3,
+    "question": "Challenge:\nGiven an integer n, return the number of prime numbers that are strictly less than n.",
+    "link": "https://leetcode.com/problems/count-primes/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "Move Primes",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 4,
+    "question": "Challenge:\nGiven an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.",
+    "link": "https://leetcode.com/problems/move-zeroes/",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "Greatest Common Devisor",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 2,
+    "question": "Challenge:\nGiven two integers, ask for their greatest common factor.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a024",
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "title": "Verify alien dictionary",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nIn an alien language, surprisingly, they also use English lowercase letters, but possibly in a different order. The order of the alphabet is some permutation of lowercase letters.\nGiven a sequence of words written in the alien language, and the order of the alphabet, return true if and only if the given words are sorted lexicographically in this alien language.",
+    "link": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Rotate elements in a list",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 4,
+    "question": "Challenge:\nGiven an unsorted array arr[] of size N, rotate it by D elements (clockwise).",
+    "link": "https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0/?company[]=Amazon&company[]=Amazon&page=1&query=company[]Amazonpage1company[]Amazon",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Maximum subarray",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.",
+    "link": "https://leetcode.com/problems/maximum-subarray/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Plus one",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nYou are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.",
+    "link": "https://leetcode.com/problems/plus-one/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Majority Element",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an array nums of size n, return the majority element.\nThe majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.",
+    "link": "https://leetcode.com/problems/majority-element/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Single Number",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven a non-empty array of integers nums, every element appears twice except for one. Find that single one.\nYou must implement a solution with a linear runtime complexity and use only constant extra space.",
+    "link": "https://leetcode.com/problems/single-number/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Contains Duplicate",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.",
+    "link": "https://leetcode.com/problems/contains-duplicate/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Two Sum",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nSee if two nums in array adds up to target.",
+    "link": "https://leetcode.com/problems/two-sum/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Roman to Numeral",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nConvert a given roman number to mathematical number.",
+    "link": "https://leetcode.com/problems/roman-to-integer/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Remove duplicates from sorted array",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Valid Sudoku",
+    "category": ["IF-ELSE", "PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nDetermine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:\n1.Each row must contain the digits 1-9 without repetition.\n2.Each column must contain the digits 1-9 without repetition.\n3.Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition..",
+    "link": "https://leetcode.com/problems/valid-sudoku/",
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "title": "Spiral Matrix",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nOutput a spiral matrix.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a417",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Rotate Matrix",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven a (mxn) matrix A , we often need to use another matrix that swaps the rows and columns of A. This action is called the flip of the matrix.",
+    "link": "https://zerojudge.tw/ShowProblem?problemid=a015",
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "title": "Create a Function to print name and age",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nCreate a function that can accept two arguments name and age and print its value.",
+    "link": "https://pynative.com/python-functions-exercise-with-solutions/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": " Using Function to take and print value",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\n Write a function func1() such that it can accept a variable length of  argument and print all arguments value.",
+    "link": "https://pynative.com/python-functions-exercise-with-solutions/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Assign a different name to function and call it through the new name",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nAssign a different name to function and call it through the new name.",
+    "link": "https://pynative.com/python-functions-exercise-with-solutions/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Calculator",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a function calculation() such that it can accept two variables and calculate the addition and subtraction of them. And also it must return both addition and subtraction in a single return call.",
+    "link": "https://pynative.com/python-functions-exercise-with-solutions/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Speed of Drivers",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a function for checking the speed of drivers. This function should have one parameter: speed.",
+    "link": "https://programmingwithmosh.com/python/python-exercises-and-questions-for-beginners/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Write a function called shownumbers ",
+    "category": ["IF-ELSE", "PRINT STATEMENTS AND INPUT STATEMENTS"],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a function called showNumbers that takes a parameter called limit. It should print all the numbers between 0 and limit with a label to identify the even and odd numbers.",
+    "link": "https://programmingwithmosh.com/python/python-exercises-and-questions-for-beginners/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Print prime numbers.",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a function that prints all the prime numbers between 0 and limit where limit is a parameter.",
+    "link": "https://programmingwithmosh.com/python/python-exercises-and-questions-for-beginners/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Print Starts",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a function called show_stars(rows).",
+    "link": "https://programmingwithmosh.com/python/python-exercises-and-questions-for-beginners/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Sum of multiples of 3 and 5",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FUNCTIONS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a function that returns the sum of multiples of 3 and 5 between 0 and limit (parameter).",
+    "link": "https://programmingwithmosh.com/python/python-exercises-and-questions-for-beginners/",
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "title": "Valid Anagram",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "STRINGS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven two strings s and t, return true if t is an anagram of s, and false otherwise.",
+    "link": "https://leetcode.com/problems/valid-anagram/",
+    "topic": "STRINGS"
+  },
+
+  {
+    "title": "Unique Email Addresses",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "STRINGS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nEvery valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.Check if the email is valid or not",
+    "link": "https://leetcode.com/problems/unique-email-addresses/",
+    "topic": "STRINGS"
+  },
+
+  {
+    "title": "Excel Sheet Column Title",
+    "category": ["IF-ELSE", "PRINT STATEMENTS AND INPUT STATEMENTS", "STRINGS"],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.",
+    "link": "https://leetcode.com/problems/excel-sheet-column-title/",
+    "topic": "STRINGS"
+  },
+
+  {
+    "title": "Add Binary",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "STRINGS",
+      "FOR-WHILE LOOPS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven two binary strings a and b, return their sum as a binary string.",
+    "link": "https://leetcode.com/problems/add-binary/",
+    "topic": "STRINGS"
+  },
+
+  {
+    "title": "Bulls and Cows",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "STRINGS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nYou write down a secret number and ask your friend to guess what the number is. When your friend makes a guess, you provide a hint with the following info:\nThe number of 'bulls', which are digits in the guess that are in the correct position.\nThe number of 'cows', which are digits in the guess that are in your secret number but are located in the wrong position. Specifically, the non-bull digits in the guess that could be rearranged such that they become bulls.\nGiven the secret number secret and your friend's guess guess, return the hint for your friend's guess.\nThe hint should be formatted as 'xAyB', where x is the number of bulls and y is the number of cows. Note that both secret and guess may contain duplicate digits.",
+    "link": "https://leetcode.com/problems/bulls-and-cows/",
+    "topic": "STRINGS"
+  },
+
+  {
+    "title": "Word Search",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an m x n board of characters and a list of strings words, return all words on the board.\nEach word must be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.",
+    "link": "https://leetcode.com/problems/word-search-ii/",
+    "topic": "FUNCTIONS"
+  },
+  {
+    "title": "Reverse String",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS",
+      "STRINGS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a function that reverses a string. The input string is given as an array of characters s.",
+    "link": "https://leetcode.com/problems/reverse-string/",
+    "topic": "STRINGS"
+  },
+  {
+    "title": "Search Insert Position",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS",
+      "ALGORITHMS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.",
+    "link": "https://leetcode.com/problems/search-insert-position/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Merge 2 sorted arrays",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS",
+      "ALGORITHMS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nYou are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.",
+    "link": "https://leetcode.com/problems/merge-sorted-array/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Sort List",
+    "category": [
+      "IF-ELSE",
+      "ALGORITHMS",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven the head of a linked list, return the list after sorting it in ascending order.",
+    "link": "https://leetcode.com/problems/sort-list/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Sort a sentence",
+    "category": [
+      "IF-ELSE",
+      "STRINGS",
+      "ALGORITHMS",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nA sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each word consists of lowercase and uppercase English letters.\nA sentence can be shuffled by appending the 1-indexed word position to each word then rearranging the words in the sentence.",
+    "link": "https://leetcode.com/problems/sorting-the-sentence/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Sort squared list",
+    "category": [
+      "IF-ELSE",
+      "STRINGS",
+      "FOR-WHILE LOOPS",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an m x n board of characters and a list of strings words, return all words on the board.\nEach word must be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.",
+    "link": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+    "topic": "FUNCTIONS"
+  },
+  {
+    "title": "Sort by frequency",
+    "category": [
+      "IF-ELSE",
+      "STRINGS",
+      "FOR-WHILE LOOPS",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS",
+      "ALGORITHMS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.\nReturn the sorted array.",
+    "link": "https://leetcode.com/problems/sort-array-by-increasing-frequency/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Sort integer by number if 1 bits",
+    "category": [
+      "IF-ELSE",
+      "ALGORITHMS",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nGiven an integer array arr. You have to sort the integers in the array in ascending order by the number of 1's in their binary representation and in case of two or more integers have the same number of 1's you have to sort them in ascending order.",
+    "link": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Merge strings alternately",
+    "category": [
+      "IF-ELSE",
+      "ALGORITHMS",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nYou are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.",
+    "link": "https://leetcode.com/problems/merge-strings-alternately/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Search by prefix",
+    "category": [
+      "IF-ELSE",
+      "ALGORITHMS",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nCheck If a Word Occurs As a Prefix of Any Word in a Sentence.",
+    "link": "https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/",
+    "topic": "ALGORITHMS"
+  },
+  {
+    "title": "Recursive Sum",
+    "category": [
+      "IF-ELSE",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "RECURSION"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a recursive function to calculate the sum of numbers from 0 to 10",
+    "link": "https://pynative.com/python-functions-exercise-with-solutions/",
+    "topic": "RECURSION"
+  },
+  {
+    "title": "Fibonacci Numbers",
+    "category": [
+      "IF-ELSE",
+      "RECURSION",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a recursive function to calculate fibonacci numbers.",
+    "link": null,
+    "topic": "RECURSION"
+  },
+  {
+    "title": "Ackermann Function",
+    "category": [
+      "IF-ELSE",
+      "RECURSION",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite a recursive function to calculate the ackermann function.",
+    "link": null,
+    "topic": "RECURSION"
+  },
+  {
+    "title": "File Output",
+    "category": [
+      "IF-ELSE",
+      "FILE-I/O",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nWrite some text and output it into a text file.",
+    "link": null,
+    "topic": "FILE-I/O"
+  },
+  {
+    "title": "File Input",
+    "category": [
+      "IF-ELSE",
+      "FILE-IO",
+      "PRINT STATEMENTS AND INPUT STATEMENTS",
+      "FOR-WHILE LOOPS",
+      "FUNCTIONS",
+      "LIST, DICTIONARY, TUPLE, SETS"
+    ],
+    "difficulty": 1,
+    "question": "Challenge:\nLoad a text file and print out the contents.",
+    "link": null,
+    "topic": "FILE-I/O"
+  }
+]

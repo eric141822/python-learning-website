@@ -1,0 +1,156 @@
+[
+  {
+    "description": "What will be the result of the following statement: print(5*5) ?",
+    "choices": ["A. 5*5", "B. 25", "C. 5", "D. None of the above."],
+    "answer": 1,
+    "topic": "PRINT STATEMENTS AND INPUT STATEMENTS"
+  },
+  {
+    "description": "What will be the result of the following statement: print(a) ?",
+    "choices": [
+      "A. 5*5",
+      "B. 25",
+      "C. 5",
+      "D. None of the above.",
+      "E. Not enough information."
+    ],
+    "answer": 4,
+    "topic": "PRINT STATEMENTS AND INPUT STATEMENTS"
+  },
+  {
+    "description": "What will be the result of the following statement: print('5*5') ?",
+    "choices": ["A. 5*5", "B. 25", "C. 5", "D. None of the above."],
+    "answer": 0,
+    "topic": "PRINT STATEMENTS AND INPUT STATEMENTS"
+  },
+  {
+    "description": "What will be the executed result of the following code:\na = 5\nif a != 7:\n  print(a-1)\nelse:\n  print(a+1)",
+    "choices": ["A. 4", "B. 7", "C. 6", "D. None of the above."],
+    "answer": 0,
+    "topic": "IF-ELSE"
+  },
+  {
+    "description": "Is the following code correct and can be compiled successfully?\nif x = 5:\n  return False",
+    "choices": ["A. It is correct", "B. There will be an error."],
+    "answer": 1,
+    "topic": "IF-ELSE"
+  },
+  {
+    "description": "If-else is used when there is a single True or False condition determining what to execute. What syntax is used when you want to add extra conditions to your flow control?",
+    "choices": ["A. while", "B. for", "C. elif", "D. None of the above."],
+    "answer": 2,
+    "topic": "IF-ELSE"
+  },
+
+  {
+    "description": "How many iterations will the following for-loop have? for i in range(1, 5)",
+    "choices": ["A. 5", "B. 6", "C. 4", "D. None of the above."],
+    "answer": 2,
+    "topic": "FOR-WHILE LOOPS"
+  },
+  {
+    "description": "What will be the final value for i in the following for-loop? for i in range(15)",
+    "choices": ["A. 15", "B. 14", "C. None of the above."],
+    "answer": 1,
+    "topic": "FOR-WHILE LOOPS"
+  },
+  {
+    "description": "What is the final value for variable x after the following code executes?\nx = 2 \nwhile x < 5:\n  x+=2",
+    "choices": ["A. 6", "B. 4", "C. 5", "D. None of the above."],
+    "answer": 0,
+    "topic": "FOR-WHILE LOOPS"
+  },
+
+  {
+    "description": "Choose the correct ways to add items to lists, dictionaries, tuples, sets. (In the correct order)",
+    "choices": [
+      "A. push, append, update, add",
+      "B. append, add, append, update",
+      "C. append, update, append, add",
+      "D. None of the above."
+    ],
+    "answer": 3,
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+  {
+    "description": "Can lists in Python hold different types of variables?",
+    "choices": ["A. Yes", "B. No"],
+    "answer": 0,
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+  {
+    "description": "Is the folloing code correct? a = [1,2]\nprint(a[2])",
+    "choices": ["A. Yes", "B. No"],
+    "answer": 1,
+    "topic": "LIST, DICTIONARY, TUPLE, SETS"
+  },
+
+  {
+    "description": "Is the following statement true: Functions in Python must return a value.",
+    "choices": ["A. Yes", "B. No"],
+    "answer": 1,
+    "topic": "FUNCTIONS"
+  },
+  {
+    "description": "What is the value of i after the following code executes:\ni = 10\ndef func():\n  i = 50\nfunc()",
+    "choices": ["A. 10", "B. 50", "C. None of the above."],
+    "answer": 0,
+    "topic": "FUNCTIONS"
+  },
+
+  {
+    "description": "Is the following code correct: b = hello\nprint(b)",
+    "choices": ["A. Yes", "B. No"],
+    "answer": 1,
+    "topic": "STRINGS"
+  },
+  {
+    "description": "What will be the value of s after the code executes: s = \"John\"\ns = s + \"Doe\"",
+    "choices": ["A. John", "B. John Doe", "C. Doe"],
+    "answer": 1,
+    "topic": "STRINGS"
+  },
+
+  {
+    "description": "Is the following statement true: Recursion functions are always more efficient.",
+    "choices": ["A. Yes", "B. No"],
+    "answer": 1,
+    "topic": "RECURSION"
+  },
+  {
+    "description": "What will be the result of the following code?\ndef r(num):\n  if num < 0:\n    print(num)\n    return\n  return r(num+1)\nr(3)",
+    "choices": ["A. -1", "B. 0", "C. 5", "D. None of the above."],
+    "answer": 3,
+    "topic": "RECURSION"
+  },
+  {
+    "description": "Which of the following sorting algorithms is the fastest?",
+    "choices": ["A. Bubble Sort", "B. Merge Sort", "C. Insertion Sort"],
+    "answer": 1,
+    "topic": "ALGORITHMS"
+  },
+  {
+    "description": "Is the following statement correct: Binary Search is always faster than Linear Search.",
+    "choices": ["A. Yes", "B. No"],
+    "answer": 1,
+    "topic": "ALGORITHMS"
+  },
+
+  {
+    "description": "What is the function used to read files in Python?",
+    "choices": [
+      "A. open()",
+      "B. load()",
+      "C. append()",
+      "D. None of the above."
+    ],
+    "answer": 0,
+    "topic": "FILE-I/O"
+  },
+  {
+    "description": "Python can open/read files in different modes, what mode should we use if we want to append data to a file?",
+    "choices": ["A. r", "B. w", "C. a", "D. r+"],
+    "answer": 2,
+    "topic": "FILE-I/O"
+  }
+]

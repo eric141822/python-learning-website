@@ -1,0 +1,165 @@
+.header {
+  width: 100vw;
+  height: 6vh;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+    269.77deg,
+    #54c0fd 0%,
+    rgba(30, 51, 159, 0.58) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navButton {
+  margin: 0 5px 5px 5px;
+}
+
+.logo {
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: Risque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+#Body {
+  display: flex;
+  height: 95vh;
+  background: lightgrey;
+}
+
+#Question {
+  float: left;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  margin-right: 0.5vw;
+  width: 29vw;
+  height: 94vh;
+  background: white;
+  border-radius: 5px;
+}
+
+#QuestionTitle {
+  height: 20vh;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 3%;
+}
+#QuestionDescription {
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 34vh;
+  
+}
+#GradeDescription {
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.Sample {
+  margin-top: 5%;
+  padding-left: 3%;
+  text-align: left;
+}
+
+#Main {
+  width: 70vw;
+  height: 90vh;
+}
+
+#Playground {
+  height: 54vh;
+  background: white;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  border-radius: 5px;
+}
+
+.textarea {
+  height: 99%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  white-space: pre-wrap;
+}
+
+#Console {
+  padding: 2px;
+  width: 70vw;
+  height: 38vh;
+  margin-top: 1vh;
+  background: white;
+  border-radius: 5px;
+}
+
+#ConsoleInput,
+#ConsoleOutput {
+  padding-left: 1%;
+  text-align: left;
+  height: 40%;
+  font-weight: bold;
+}
+
+.ModelPrediction {
+  padding-left: 1%;
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+}
+
+.ConsoleBox {
+  border-radius: 10px;
+  width: 95%;
+  height: 60%;
+  border-color: black;
+  border-style: solid;
+  overflow: auto;
+}
+
+#Run {
+  float: right;
+  border-radius: 5px;
+  border-style: none;
+  width: 7.5%;
+  height: 10%;
+  font-size: large;
+}
+
+#Submit {
+  float: right;
+  /* background: linear-gradient(
+    261.8deg,
+    #54c0fd 0%,
+    rgba(30, 51, 159, 0.58) 100%
+  ); */
+  border-radius: 5px;
+  border-style: none;
+  width: 7.5%;
+  height: 10%;
+  margin-right: 5%;
+  font-size: large;
+}
+
+.testcases {
+  white-space: pre-wrap;
+}
+
+.incorrect {
+  color: red;
+  font-weight: 600;
+}
+
+.correct{
+  color: green;
+  font-weight: 600;
+}

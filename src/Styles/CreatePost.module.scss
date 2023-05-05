@@ -1,0 +1,25 @@
+.h2 {
+  font-family: Rounded Mplus 1c Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.textarea {
+  width: 95%;
+  height: 20vh;
+}
+
+.input {
+  width: 40%;
+  height: 30px;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 2px;
+}
+.buttons {
+  justify-content: flex-end;
+  display: flex;
+}

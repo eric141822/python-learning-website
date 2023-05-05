@@ -1,0 +1,78 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.navButton {
+  margin: 0 5px 5px 5px;
+}
+
+.header {
+  width: 100vw;
+  height: 6vh;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+    269.77deg,
+    #54c0fd 0%,
+    rgba(30, 51, 159, 0.58) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: Risque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2 {
+  font-family: Rounded Mplus 1c;
+  color: gray;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.fullWrapper {
+  background: white;
+  border-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 2px 0px;
+  margin: 5px 5px 40px 5px;
+  overflow-y: scroll;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+  height: 80px;
+  &:hover {
+    background-color: lightgrey;
+  }
+}
+
+.modal {
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+}

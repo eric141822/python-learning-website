@@ -1,0 +1,16 @@
+[
+    {
+        "_id": string,
+        "title": string,
+        "category": [ 
+            string
+         ],
+        "difficulty": int,
+        "question": string,
+        "link": string,
+         "topic": string,
+    }
+]
+
+
+

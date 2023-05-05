@@ -1,0 +1,22 @@
+[
+  {
+    "title": "post title test",
+    "user": "abc123",
+    "description": "desc test",
+    "question_id": "question id",
+    "comments": [
+      { "comment": "hahaha", "user": "xyz456" },
+      { "comment": "adadasdsad", "user": "qwerty" }
+    ]
+  },
+  {
+    "title": "post title test 2",
+    "user": "abc123",
+    "description": "desc test",
+    "question_id": "question id",
+    "comments": [
+      { "comment": "hahaha", "user": "xyz456" },
+      { "comment": "adadasdsad", "user": "qwerty" }
+    ]
+  }
+]
