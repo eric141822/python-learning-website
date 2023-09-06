@@ -6,8 +6,10 @@ var logger = require("morgan");
 var cors = require("cors");
 
 const mongoose = require("mongoose");
+// Besure to replace uri with your own MongoDB URI.
+// fill the database with the questions in the data folder
 const uri =
-  "mongodb+srv://fyp21005:d87AubrgFRf0GgUw@fyp.swoqx.mongodb.net/fyp?retryWrites=true&w=majority";
+  "YOUR_MONGODB_URI";
 mongoose.connect(
   uri,
   { useNewUrlParser: true, useUnifiedTopology: true },
